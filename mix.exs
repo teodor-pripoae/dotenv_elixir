@@ -4,7 +4,7 @@ defmodule DotenvElixir.Mixfile do
   def project do
     [ app: :dotenv,
       version: "0.0.2",
-      elixir: ">= 0.14.3 and <= 0.15.0",
+      elixir: ">= 0.13.3 and <= 0.15.0",
       deps: deps,
       package: [
         contributors: ["Avdi Grimm", "David Rouchy", "Jared Norman"],
